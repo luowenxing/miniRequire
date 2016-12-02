@@ -1,0 +1,14 @@
+<html>
+	<body>
+		
+	</body>
+	<script src="miniRequire.js"></script>
+	<script>
+		miniRequireSetup({
+			baseUrl:'./test/'
+		})
+		miniRequire(['index'],function(){
+			console.log('index.js loaded')
+		})
+	</script>
+</html>

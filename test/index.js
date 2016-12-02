@@ -1,0 +1,4 @@
+miniRequire(['hello','world'],function(){
+	
+	
+})
